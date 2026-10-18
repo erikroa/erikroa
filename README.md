@@ -1,18 +1,29 @@
 # Erik Roa
 
-**Revenue Operations and Customer Analytics** | Berlin
+**Senior CX & Revenue Operations** | Berlin
 
-Senior CX Operations Manager in B2B SaaS, working across CX Ops and RevOps. 8+ years in Customer Success, now focused on the data side: retention and churn reporting, ARR movements, CRM data quality and the automation that keeps them reliable.
+Senior CX Operations Manager in B2B SaaS, working across CX Ops and RevOps, with 8+ years in Customer Success behind it. I own the processes behind retention and ARR reporting: monthly existing-business reconciliation, churn and downsell classification, billing migrations, and the CRM and CS-platform data quality those numbers depend on.
 
 - **Stack**: SQL, Python, dbt, BigQuery, Snowflake, Tableau, Looker Studio, Salesforce, Planhat, Chargebee
 - **Certification**: Google Cloud Data Analytics
-- **Languages**: Spanish (native), English (working), German (learning)
+- **Languages**: Spanish (native), English (fluent), German (learning)
+
+## What I own
+
+- **Month-end ARR close**: reconciling finance ARR movements against CRM bookings across expansion, downsell and churn, including the include/exclude judgment on edge cases
+- **Subscription and contract operations**: bulk billing migrations, plan repricing and contract corrections, executed end to end with finance sign-off
+- **System and data architecture**: integration design between CRM, customer success platform and marketing tools, plus field and data-quality clean-ups
+- **Process design**: turning recurring manual work into documented, repeatable routines and validation rules
 
 ---
 
 ## Projects
 
 All projects use public or synthetic data. No employer data is used.
+
+### Revenue close and data quality
+
+**[arr-bookings-reconciliation-engine](https://github.com/erikroa/arr-bookings-reconciliation-engine)** (Python, pandas, pytest): Reconciles finance ARR movements against CRM bookings using seven rules drawn from common month-end close mistakes. Reduces 119 comparisons to a 5-case worklist, with a decision log that carries over month to month.
 
 ### Retention and churn
 
